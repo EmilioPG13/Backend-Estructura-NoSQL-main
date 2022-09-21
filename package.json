@@ -1,0 +1,22 @@
+{
+  "name": "backend-estructura-nosql-main",
+  "version": "1.0.0",
+  "description": "Backend-Estructura-NoSql\r Esto es una estructura básica para crear proyectos backend con express y base de datos de mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilioPG13/Backend-Estructura-NoSQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilioPG13/Backend-Estructura-NoSQL/issues"
+  },
+  "homepage": "https://github.com/EmilioPG13/Backend-Estructura-NoSQL#readme"
+}
