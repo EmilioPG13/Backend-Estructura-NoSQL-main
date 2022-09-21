@@ -10,7 +10,7 @@ server.on('listening', () => {
 })
 
 server.on('error', (e) => {
-    console.error('Error al ejecutar el servidor', config.server.port)
+    console.error('Error al ejecutar el servidor')
     if(e.code === 'EADDRINUSE') {
         console.error('El puerto', config.server.port, 'ya esta en uso');
     }
