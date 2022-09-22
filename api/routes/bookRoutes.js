@@ -12,12 +12,12 @@ const router = express.Router();
  * DELETE /books/:id
  */
 
-router.route('/books').post(bookController.create).get(bookController.getAll);
+router.route('/books').post(bookController.create).get(bookController.getAll)
 
 router
-    .route('/books/:id')
-    .put(bookController.updateById)
-    .get(bookController.getById)
-    .delete(bookController.deleteById);
+.route('/books/:id')
+.put(bookController.updateByID)
+.get(bookController.getbyID)
+.delete(bookController.deleteById)
 
 export default router;
