@@ -10,7 +10,7 @@ const config = {
       uri: process.env.DB_URI,
     },
     security: {
-      attempts: 5,
+      tokeSecret: process.env.TOKEN_SECRET_,
     },
 }
 
